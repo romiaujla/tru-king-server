@@ -5,5 +5,5 @@ CREATE TABLE zipcodes (
     state_id VARCHAR(2) NOT NULL,
     state TEXT NOT NULL,
     country TEXT NOT NULL,
-    UNIQUE (zipcode, city, state, country) -- to avoid duplicate entries to the table
+    UNIQUE (zipcode, city, state, state_id, country) -- to avoid duplicate entries to the table
 );
