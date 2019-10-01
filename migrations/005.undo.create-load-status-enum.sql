@@ -1,0 +1,1 @@
+DROP TYPE IS EXISTS load_status_enum;
