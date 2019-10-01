@@ -1,1 +1,1 @@
-DROP TYPE IS EXISTS load_status_enum;
+DROP TYPE IF EXISTS load_status_enum;
